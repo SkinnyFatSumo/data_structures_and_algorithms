@@ -1,0 +1,30 @@
+BINARY SEARCH TREES
+(aka Ordered Binary Trees or Sorted Binary Trees)
+
+How is it unique?
+  - keys are always kept in SORTED order
+
+
+Pros:
+  - fast lookup
+  - fast addition
+  - fast removal
+
+Cons:
+  - not as fast as a hash table
+
+
+Properties:
+  - makes decision at each node between left and right subtree
+    - allows it to skip about 1/2 the tree
+    - O log N (proportional to number of items in the tree) for:
+      - access
+      - search
+      - insertion
+      - deletion
+
+
+Use Cases:
+  - implement dynamic sets of items
+  - use as a lookup table, finding items by key:
+    - like finding a person's phone number by name

@@ -1,0 +1,40 @@
+
+Pros of Linked Lists:
+
+Cons of Linked Lists:
+
+
+Dealing with Linked List problems:
+  - VISUAL:
+    - go visual, linked list problems can be confusing because of the lack of
+      indexing and typical looping structures
+    - it can be ahrd to visualize in your head
+    - try drawing the structures and relationships, using lots of space, 
+      and be diligent about tracking changes (redraw if need, track variables)
+
+  - MATHEMATICAL:
+    - because you can't use index, other logical / mathematical tools are often
+      helpful or necessary 
+    - MULTIPLE POINTERS:
+      - use multiple pointers that are related to one another in order to break
+        up the problem into manageable units and points of reference
+      - FAST + SLOW:
+        - this common approaches uses two pointers, one moving at double the
+          distance of the other per step, to find a mid point in a linked list
+        - it can also be continued further to discover things like cycles
+
+  - TRIP UPS:
+    - be careful to not isolate nodes
+    - don't attempt to access values or 'next's of nodes that don't exist
+  
+  - TIPS:
+    - always good to have a head and tail pointer if possible
+    - figure out what type of linked list it is
+      - Singly Linked List
+      - Doubly Linked List
+      - Circularly Linked List
+      - etc.
+    - along the same line, figure out what the node structure is
+       
+   
+
